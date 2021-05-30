@@ -1,0 +1,39 @@
+ENGLISH
+
+Utility for sync files stored in a folder on
+local computer with files on a remote server.
+
+Allows:
+1. Create a list of files in a specific folder of the local
+computer (format json)
+2. Create a list of files in a specific folder of the remote
+server (format json)
+3. Compares the contents of these files and creates a list
+of files missing on the remote server.
+4. Uploads files (using ftp) to the remote server. Creates a 
+directory structure.
+
+For all questions and suggestions please contact:
+bobrovski.vladimir@gmail.com 
+
+Реализовано на python 3.8
+
+Утилита для синхронизации файлов, хранящимся в папке на 
+локальном компьютере, с файлами на удалённом сервере.
+
+РУССКИЙ
+Позволяет: 
+1. Создавать список файлов в определённой папке на локальном
+компьютере. Данная информация сохраняется в файле в формате 
+json
+2. Создавать список файлов в определённой папке удалённого 
+сервере. Данная информация сохраняется в файле в формате 
+json
+3. Сравнивает содержимое данных файлов и создаёт список 
+отсутствующих на удалённом сервере файлов.
+4. Через протокол ftp производить загрузку файлов, 
+отсутствующих на удалённом сервере. При необходимости 
+создаёт структуру директорий.
+
+По всем вопросам и предложениям обращаться:
+bobrovski.vladimir@gmail.com 
